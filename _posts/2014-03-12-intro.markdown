@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "No reading, no research, just strong opinions!"
+date:   1969-12-31 23:59:59
+categories: general
+---
+<p>Welcome to my blog, home of my public ramblings.</p>
+

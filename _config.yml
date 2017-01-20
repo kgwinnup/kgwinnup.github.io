@@ -1,0 +1,6 @@
+name: Simplicity is prerequisite for reliability
+markdown: redcarpet
+highlighter: true
+url: http://kgwinnup.github.io
+markdown: redcarpet
+extensions: [fenced_code_blocks]
