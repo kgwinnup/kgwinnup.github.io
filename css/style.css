@@ -18,6 +18,13 @@ body{
 	font-family: georgia, serif;
 }
 
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
 #header h1 a{
 	background: #fff;
 	color:#333;
