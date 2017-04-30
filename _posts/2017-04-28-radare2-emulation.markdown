@@ -11,7 +11,7 @@ This binary lab in particular is interesting because it contains self modifying 
 
 ##### Downloads
 
-You can download the [original binary]("/assets/radare2emu/bomb") or the [patched binary]("/assets/radare2emu/bomb.mod") with a callback to the 127.0.0.1.
+You can download the [original binary](/assets/radare2emu/bomb) or the [patched binary](/assets/radare2emu/bomb.mod) with a callback to the 127.0.0.1.
 
 - [Identifying and extracting self modifying code](#finding)
 - [Unpacking with Radare2 Emulator](#radare2)
