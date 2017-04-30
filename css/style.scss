@@ -3,9 +3,9 @@
 ---
 
 $gray: #dddfd4;
-$yellow: #fae596;
-$blue: #3fb0ac;
-$darkblue: #173e43;
+$blue: #337cd7;
+$yellow: #ffb83e;
+$darkblue: #1c1e21;
 
 body:before {
     content: "";
@@ -22,6 +22,7 @@ body:before {
 
 body{
     border-top: 1em $yellow solid;
+    color: $darkblue;
 }
 
 h1, h2, h3 {
@@ -29,8 +30,12 @@ h1, h2, h3 {
 }
 
 p, li {
-    font-family: georgia, serif;
-    font-size:16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:14px;
+}
+
+code span {
+    font-size:11px;
 }
 
 a {
