@@ -5,7 +5,7 @@ date:   2017-04-27 23:59:59
 categories: reversing
 ---
 
-[Radare2](https://radare.org) is a project I've been watching with some interest for a while. Although, being a little removed from reversing for almost a year now, getting comfortable with Radare2 was never something on the top of my Todo stack. That has sense changed and wow! Radare2 is awesome. I am still going through and figuring out all the commands and exploring capabilities, but so far I am very impressed.
+[Radare2](https://radare.org) is a project I've been watching with some interest for a while. Although, being a little removed from reversing for almost a year now, getting comfortable with Radare2 was never something on the top of my Todo stack. That has sinse changed and wow! Radare2 is awesome. I am still going through and figuring out all the commands and exploring capabilities, but so far I am very impressed.
 
 This binary lab in particular is interesting because it contains self modifying code that makes a callback to RPI servers. The self modifying code is xor encoded and makes for a cool example to try out some of Radare2's features!
 
@@ -21,7 +21,7 @@ You can download the [original binary](/assets/radare2emu/bomb) or the [patched 
 
 ## Identifying and extracting the self modifying code
 
-When spinning this binary up, entering an incorrect answer triggers the `kaboom` function. A few instructions after, there is an call to a local stack variable which is the self modifying code section. This binary was compiled with `execstack` enabled. 
+When spinning this binary up, entering an incorrect answer triggers the `kaboom` function. A few instructions after, there is an call to a local stack variable which is the self modifying code section. 
 
 Radare2 also comes with some cool utility applications. Rabin2 to get general information, symbols, strings, binary info, etc... Rax2 is handy too and there are several others. See the Radare2 book, obviously the book is extremely helpful while learning Radare.
 
