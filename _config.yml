@@ -1,9 +1,5 @@
 name: 
-markdown: redcarpet
 highlighter: rouge
 url: http://kgwinnup.github.io
-markdown: redcarpet
 extensions: [fenced_code_blocks]
-redcarpet:
-    extensions: ["no_intra_emphasis"]
 asciicast: [("width": 120), ("height", 30)]
