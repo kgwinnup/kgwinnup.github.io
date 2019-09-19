@@ -44,7 +44,7 @@ We know that the self modifying code is 0x8c bytes long. And due to the `call 0x
 
 Doing some basic math we can calculate the entire code block to be 0xa1 bytes long.
 
-```config
+```bash
 0x0804a08c      eb0e           jmp 0x804a09c           
 0x0804a08e      58             pop eax
 0x0804a08f      31c9           xor ecx, ecx
